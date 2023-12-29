@@ -1,31 +1,29 @@
-/* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+html {
+scroll-behavior: smooth; /* Для плавного скролла по якорям и по сайту */
 }
 
-ul {
+h1, h2, h3, h4, h5, h6, p, a, ul { /* Убираем лишние отступы, как внутренние, так и внешние */
   margin: 0;
   padding: 0;
-  list-style: none;
+} 
+
+ul, ol {
+  list-style: none; /* Убираем базовые цифры и пометки списков */
 }
 
 a {
-  color: currentColor;
-  text-decoration: none;
+  text-decoration: none; /* Убираем подчеркивание ссылок */
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer; /* Добавляем палец при наведении на кнопку */
 }
 
 img {
