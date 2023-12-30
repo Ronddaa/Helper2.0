@@ -6,16 +6,14 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
-@import url('./icons.css');
 @import url('./footer.css');
 
 html{
   background-color: #121212;
-  color: #ceffbd;
 }
 
 .container{
-  max-width: 1440px;
+
   margin: 0 auto;
   padding: 0 15px;
 }
